@@ -1,0 +1,35 @@
+Prices are Qty 1 / Qty 10 for all count
+
+1x 3.50/3.50 PCB
+             Cost to manufacture ~$35 per 10 boards
+
+1x 2.60/2.60 White-on-Blue 1602 LCD display
+             ebay "1602 lcd" - lots of choices and price ranges, just need basic 5V version
+
+1x 3.43/3.02 ATMega328P-AU or ATMega168PA-AU
+             http://www.mouser.com/ProductDetail/Atmel/ATMEGA328P-AU/?qs=sGAEpiMZZMtVoztFdqDXO3RbBx7FKCmV
+             I might have one on hand; not sure. 
+
+1x 5.40/4.80 Hammond 1591ATBU case
+             http://www.mouser.com/ProductDetail/Hammond-Manufacturing/1591ATBU/?qs=sGAEpiMZZMsrGrAVj6eTvdpFQBtxOVAXUE%252bRQ%2fZkRr8%3d
+
+4x 2.00/0.35 Low-cost 5.08mm terminal connectors
+             ebay "5.08mm terminal blue" as cheap as 10c each, usually packs of 20 or 100
+             I have these on hand
+
+1x ?.??/?.?? 6x6x6 4pin tact switch
+             ebay "6x6 tact" - get whatever is cheapest. used for internal button
+             I have these on hand
+
+1x ?.??/?.?? 6x6x20mm 4pin tact switch
+             ebay "6x6x20 tact" - used for front indicator button
+             I have some ordered and coming in.
+
+1x ?.??/?.?? tact button cap
+             ebay "tact button cap round" - whatever style you want, for round buttons, should work OK
+             they are hard to find, but I am sure we could mod the square ones to work - ignore for now
+
+Totals
+Qty 1:  $16.93
+Qty 10: $14.27
+

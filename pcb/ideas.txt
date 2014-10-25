@@ -1,0 +1,43 @@
+HW
+==
+- everything SMD so it can be epoxied or conformal coated easily
+- put tamper stickers on external enclosure, probably more important
+- ack button? screen light up button? some complex shit?
+- ADC read of proper security loop to door contact
+  this means: install proper loop resistors at door contact side
+- enclosure has a tamper switch?
+- internal tamper switch? can code for 2x doors, or 1x door and 1x tamper.
+
+
+SW
+==
+- beep/flash when door is opened?
+- beeper and lcd backlight are both on external PWM
+- LED indicator for something? maybe flash to show the unit is running?
+- error display if reset from watchdog reset or BOD? only boot normally from POR?
+  this info may be useful: http://www.avrfreaks.net/forum/determining-reset-source-atmega328p
+- show state of various things
+  - show overall powered uptime
+  - show time since last open
+  - show time since last tamper/short
+  - show state (open/closed/tamper/short)
+
+
+IDEA
+====
+- maybe the front button can be a status/counter button to flip between the two screens,
+  showing the counter normally, or the status
+
+- maybe screen can stay flashing in severe alarm cases (tamper/short) until a timeout or
+  cleared by getting into the device or something.
+
+- two unused pins are I2C pins, so if you need I2C shit, those are your free pins.
+  otherwise they can be unused, used as GPIO, etc.
+
+
+====
+
+julian:
+you can see why off the shelf units may be ideal - less shit to think about, less code to write :)
+if your time is worth nothing (or if you enjoy doing this / learning) then this will be cheaper,
+otherwise it can be quite a bit more expensive
