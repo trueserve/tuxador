@@ -1,5 +1,4 @@
 # tuxador
-=======
 
 A simple, secure door entry/open counter.
 
@@ -7,7 +6,7 @@ Still in the planning phase.
 
 
 ## Goals
-=======
+
 - Make a basic counter
 - Support one doorway and a tamper switch
 - Support proper security open/close/tamper/short loop
