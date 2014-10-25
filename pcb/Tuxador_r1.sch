@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8526,8 +8526,6 @@ by exp-lbrs.ulp</description>
 <part name="CN4" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1K"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="1K"/>
 <part name="LS1" library="_3k" deviceset="EM_BUZZER" device="_CHINA12MM"/>
 <part name="ARD" library="dp_devices" deviceset="CON_HEADER_1X05" device="-PTH"/>
 <part name="BN1" library="_trueControl" deviceset="SCHURTER_PUSHBTN_LPH" device=""/>
@@ -8634,8 +8632,6 @@ C3 with 0.1uF</text>
 </instance>
 <instance part="P+6" gate="VCC" x="109.22" y="27.94"/>
 <instance part="GND8" gate="1" x="109.22" y="-20.32"/>
-<instance part="R6" gate="G$1" x="124.46" y="10.16" rot="R90"/>
-<instance part="R7" gate="G$1" x="132.08" y="10.16" rot="R90"/>
 <instance part="LS1" gate="G$1" x="2.54" y="-7.62"/>
 <instance part="ARD" gate="G$1" x="63.5" y="-17.78"/>
 <instance part="BN1" gate="A" x="114.3" y="43.18"/>
@@ -8661,9 +8657,7 @@ C3 with 0.1uF</text>
 </segment>
 <segment>
 <pinref part="CN3" gate="-2" pin="KL"/>
-<wire x1="104.14" y1="-2.54" x2="132.08" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="-2.54" x2="132.08" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-2.54" x2="111.76" y2="-2.54" width="0.1524" layer="91"/>
 <label x="111.76" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -8813,9 +8807,7 @@ C3 with 0.1uF</text>
 </segment>
 <segment>
 <pinref part="CN3" gate="-1" pin="KL"/>
-<wire x1="104.14" y1="2.54" x2="124.46" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="2.54" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="2.54" x2="111.76" y2="2.54" width="0.1524" layer="91"/>
 <label x="111.76" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -8939,14 +8931,6 @@ C3 with 0.1uF</text>
 <wire x1="104.14" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="22.86" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="15.24" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="15.24" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<junction x="109.22" y="22.86"/>
-<junction x="124.46" y="22.86"/>
 </segment>
 <segment>
 <pinref part="ARD" gate="G$1" pin="4"/>
