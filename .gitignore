@@ -1,0 +1,4 @@
+# Eagle Schematic and Board backup files
+*.s\#*
+*.b\#*
+*.l\#*
