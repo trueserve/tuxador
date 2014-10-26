@@ -7,6 +7,7 @@ HW
   this means: install proper loop resistors at door contact side
 - enclosure has a tamper switch?
 - internal tamper switch? can code for 2x doors, or 1x door and 1x tamper.
+- Built in battery pack / charger? Probably on a separate 2-layer board.
 
 
 SW
