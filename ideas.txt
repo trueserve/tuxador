@@ -22,6 +22,10 @@ SW
   - show time since last open
   - show time since last tamper/short
   - show state (open/closed/tamper/short)
+- Drive digital circuit outputs low to determine if inputs have been damaged
+  - only do this occasionally, maybe once every couple of minutes, since it
+    looks the same as a short to the system. however doing this is very fast,
+    on the order of milliseconds, so it is worthwhile to do
 
 
 IDEA
