@@ -3,7 +3,7 @@
  * a simple door counter device
  *
  * circuit and code Copyright 2014 true <trueamx at gmail dot com>
- * original idea and code Copyright 2014 ??? <???@???>
+ * original idea and code Copyright 2014 tuxavant <tuxavant at tuxavant dot com>
  *
  */
 
